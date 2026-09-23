@@ -48,18 +48,31 @@ The workflow covers data preprocessing → vectorization → similarity computat
 
 🚀 How to Run
 Step 1 — Clone Repository
+
 git clone https://github.com/DipaliKhatua/Book-Recommendation-System-With-Deployment.git
+
 cd Book-Recommendation-System-With-Deployment
+
 Step 2 — Install Dependencies
+
 pip install -r requirements.txt
+
 Step 3 — Run Locally
+
 streamlit run app.py
+
  Then open the local URL (usually http://localhost:8501) in your browser.
+
 Step 4 — Deploy on Render
+
 Push all files to GitHub (already done).
+
 Login to Render.
+
 Connect your GitHub repository.
+
 Configure the build command:
+
 pip install -r requirements.txt && streamlit run app.py
 Deploy and get your public app link.
 Deploy the app and verify the live link.
